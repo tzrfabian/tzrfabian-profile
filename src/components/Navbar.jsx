@@ -5,22 +5,27 @@ export default function Navbar() {
     <div>
         <nav className="block w-full max-w-screen px-4 py-2 mx-auto text-white bg-slate-900 shadow-md  lg:px-8 lg:py-6 ">
             <div className="container flex flex-wrap items-center justify-around mx-auto text-gray-100">
-                <a
-                href="#"
+                <Link
+                href="/"
                 className="mr-4 text-3xl block cursor-pointer py-1.5text-gray-200 font-semibold"
                 >
                 Fabian Tenzara
-                </a>
+                </Link>
                 <div className="hidden lg:block">
                 <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200">
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600">
                     <a href="#" className="flex items-center">
                         Projects
                     </a>
                     </li>
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200">
-                    <a href="#" className="flex items-center">
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600">
+                    <a href="/#about" className="flex items-center">
                         About
+                    </a>
+                    </li>
+                    <li className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800">
+                    <a href="#" className="flex items-center">
+                        Resume
                     </a>
                     </li>
                 </ul>
