@@ -24,9 +24,9 @@ export default function Navbar() {
                     </a>
                     </li>
                     <li className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800">
-                    <a href="#" className="flex items-center">
+                    <Link href="https://drive.google.com/file/d/1F7wRzJn0qRMLgwPqb7eXERc8YiaxR6HB/view" className="flex items-center">
                         Resume
-                    </a>
+                    </Link>
                     </li>
                 </ul>
                 </div>
