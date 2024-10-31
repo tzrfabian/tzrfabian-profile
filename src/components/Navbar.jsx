@@ -7,23 +7,23 @@ export default function Navbar() {
             <div className="container flex flex-wrap items-center justify-around mx-auto text-gray-100">
                 <Link
                 href="/"
-                className="mr-4 text-3xl block cursor-pointer py-1.5text-gray-200 font-semibold"
+                className="mr-4 text-3xl block cursor-pointer py-1.5text-gray-200 font-semibold hover:text-emerald-600 duration-200"
                 >
                 Fabian Tenzara
                 </Link>
                 <div className="hidden lg:block">
                 <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600">
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200">
                     <Link href="/projects" className="flex items-center">
                         Projects
                     </Link>
                     </li>
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600">
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200">
                     <a href="/#about" className="flex items-center">
                         About
                     </a>
                     </li>
-                    <li className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800">
+                    <li className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800 duration-200">
                     <Link href="https://drive.google.com/file/d/1F7wRzJn0qRMLgwPqb7eXERc8YiaxR6HB/view" className="flex items-center">
                         Resume
                     </Link>
