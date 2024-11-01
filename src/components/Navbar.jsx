@@ -7,7 +7,7 @@ export default function Navbar() {
             <div className="container flex flex-wrap items-center justify-around mx-auto text-gray-100">
                 <Link
                 href="/"
-                className="mr-4 text-3xl block cursor-pointer py-1.5text-gray-200 font-semibold hover:text-emerald-600 duration-200"
+                className="mr-4 text-3xl block cursor-pointer py-1.5text-gray-200 font-semibold hover:text-emerald-500 duration-200"
                 >
                 Fabian Tenzara
                 </Link>
@@ -23,9 +23,11 @@ export default function Navbar() {
                         About
                     </a>
                     </li>
-                    <li className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800 duration-200">
+                    <li>
                     <Link href="https://drive.google.com/file/d/1F7wRzJn0qRMLgwPqb7eXERc8YiaxR6HB/view" className="flex items-center">
-                        Resume
+                        <div className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800 duration-200">
+                            Resume
+                        </div>
                     </Link>
                     </li>
                 </ul>
