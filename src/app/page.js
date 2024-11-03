@@ -78,7 +78,7 @@ export default function Home() {
         <hr className="border-gray-500 mb-4"/>
         
         <p className="text-gray-300 text-xl">
-        My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a computer science graduate from Bina Nusantara University.
+        My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a computer science graduate from Bina Nusantara University. I previously had an internship experience as a DevOps Engineer for 1 year. And I have just graduated from Hacktiv8's Full Stack Javascript intensive Bootcamp program and am looking to pursue a career as a Software/Web Developer.
         </p>
       </div>
       <div>

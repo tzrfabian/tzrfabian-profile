@@ -4,8 +4,8 @@ import React from 'react'
 
 export default function ProjectCard( {project} ) {
   return (
-    <div className='border border-white rounded-lg my-5 p-3 bg-gray-800 bg-opacity-80 hover:translate-x-3 transition-all duration-300'>
-      <h2 className='text-2xl font-bold text-white'>{project.name}</h2>
+    <div className='group border border-white rounded-lg my-5 p-3 bg-gray-800 bg-opacity-80 hover:translate-x-3 transition-all duration-300'>
+      <h2 className='text-2xl font-bold text-white'>‣ {project.name}</h2>
       <p className='text-gray-200'>
         {project.description || 'No description available'}
       </p>
@@ -14,12 +14,12 @@ export default function ProjectCard( {project} ) {
         {project.techStack.join(', ')}
       </p>
       <Link href={project.repository}>
-        <p className='text-gray-200 font-semibold hover:underline hover:text-cyan-600'>Repository Link</p>
+        <p className='text-gray-200 font-semibold hover:underline group-hover:text-cyan-600'>&#128279; Repository Link</p>
       </Link>
 
       {project.deployLink ? (
         <Link href={project.deployLink}>
-          <p className='text-gray-200 font-semibold hover:underline hover:text-cyan-600'>Deploy Link</p>
+          <p className='text-gray-200 font-semibold hover:underline group-hover:text-cyan-600'>&#128279; Deploy Link</p>
         </Link>
       ) : (
         <p className='text-gray-200 text-opacity-50'>{"<Not Deployed Yet>"}</p>

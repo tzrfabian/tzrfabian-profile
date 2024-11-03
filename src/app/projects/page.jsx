@@ -17,7 +17,6 @@ export default function Projects() {
           {projects.map((project) => {
             return <ProjectCard key={project.id} project={project}/>
           })}
-          
       </div>
     </div>
   )
