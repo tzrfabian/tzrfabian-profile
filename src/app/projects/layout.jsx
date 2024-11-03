@@ -1,6 +1,6 @@
 export const metadata = {
     title: "Projects | tzrfabian",
-    description: "List of My Projects",
+    description: "List of Fabian's Personal Projects",
 };
 
 export default function ProjectLayout({ children }) {

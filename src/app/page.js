@@ -1,4 +1,6 @@
 import Link from "next/link";
+import image from '../../public/img_pic.jpg'
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -77,15 +79,15 @@ export default function Home() {
 
         <hr className="border-gray-500 mb-4"/>
         
-        <p className="text-gray-300 text-xl">
-        My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a computer science graduate from Bina Nusantara University. I previously had an internship experience as a DevOps Engineer for 1 year. And I have just graduated from Hacktiv8's Full Stack Javascript intensive Bootcamp program and am looking to pursue a career as a Software/Web Developer.
+        <p className="text-gray-400 text-xl">
+        {"My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a computer science graduate from Bina Nusantara University. I previously had an internship experience as a DevOps Engineer for 1 year. And I have just graduated from Hacktiv8's Full Stack Javascript intensive Bootcamp program and am looking to pursue a career as a Software/Web Developer."}
         </p>
       </div>
       <div>
-        <img
-          src="https://64.media.tumblr.com/970bd29f7e0fdb7b4d7ad7cd98f80f33/9ccc6221ca631a87-4d/s640x960/c23ea96f23d34bb8bb07020f0e38a5da08da3935.png"
+        <Image
+          src={image}
           alt="picture"
-          className="w-60 mx-auto my-3 bg-gray-500 rounded-xl"
+          className="w-60 mx-auto my-3 bg-gray-500 rounded-full"
         />
       </div>
     </div>
