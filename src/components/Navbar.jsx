@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Navbar() {
   return (
     <div>
-        <nav className="block w-full max-w-screen px-4 py-2 mx-auto text-white bg-slate-900 shadow-md  lg:px-8 lg:py-6 ">
+        <nav className="block w-full max-w-screen px-4 py-2 mx-auto text-white bg-slate-900 shadow-md lg:px-8 lg:py-6 ">
             <div className="container flex flex-wrap items-center justify-around mx-auto text-gray-100">
                 <Link
                 href="/"
@@ -24,7 +24,7 @@ export default function Navbar() {
                     </Link>
                     </li>
                     <li>
-                    <Link href="https://drive.google.com/file/d/1F7wRzJn0qRMLgwPqb7eXERc8YiaxR6HB/view" className="flex items-center">
+                    <Link href="https://drive.google.com/file/d/1F7wRzJn0qRMLgwPqb7eXERc8YiaxR6HB/view" target="blank" rel="noopener noreferrer" className="flex items-center">
                         <div className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800 duration-200">
                             Resume
                         </div>
