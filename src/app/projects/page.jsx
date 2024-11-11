@@ -10,7 +10,7 @@ export default function Projects() {
       <div className='mt-3 rounded-md px-4 py-8 animate-fadein'>
         <div className='max-md:text-center flex justify-center items-center'>
           <h2 className="md:text-4xl text-slate-100 text-xl font-bold md:!leading-[50px] mb-2 text-center">
-            Lift of My Projects
+            List of My Projects
           </h2>
         </div>
         <div className='items-center max-w-2xl mx-auto'>
