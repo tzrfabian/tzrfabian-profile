@@ -14,7 +14,7 @@ export default function Intro2() {
             <hr className="border-gray-500 mb-4"/>
             
             <p className="text-gray-400 text-lg">
-            {"My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a computer science graduate from Bina Nusantara University. I previously had an internship experience as a DevOps Engineer for 1 year. And I have just graduated from Hacktiv8's Full Stack Javascript intensive Bootcamp program and am looking to pursue a career as a Software/Web Developer."}
+            {"My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a computer science graduate from Bina Nusantara University. I previously had an internship experience as a DevOps Engineer for 1 year. And graduates from Hacktiv8's Full Stack Javascript intensive Bootcamp program. Now, currently working at PT Agrodana Futures as Internal Developer."}
             </p>
         </div>
         <div>

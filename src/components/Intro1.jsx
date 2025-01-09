@@ -13,10 +13,10 @@ export default function Intro1() {
             My Name is Fabian Tenzara
             </h2>
             <p className="text-gray-400 text-xl">
-            I am very interested in Web & API development.
+            I am very interested in Web, API & Automation development.
             </p>
             <p className="text-gray-400 text-xl">
-            Currently, I am actively learning to hone my skills in Javascript & TypeScript programming languages.
+            Currently, I am actively learning to hone my skills in JavaScript, TypeScript & Python programming languages.
             </p>
         </div>
         <div>
