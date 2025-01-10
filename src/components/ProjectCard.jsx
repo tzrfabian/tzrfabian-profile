@@ -14,12 +14,16 @@ export default function ProjectCard( {project} ) {
         {project.techStack.join(', ')}
       </p>
       <Link href={project.repository}>
-        <p className='text-gray-200 font-semibold hover:underline group-hover:text-cyan-600'>&#128279; Repository Link</p>
+          <div className='flex w-fit p-2 rounded-md hover:bg-emerald-500 hover:font-bold'>
+            <p className='text-gray-200 font-semibold group-hover:text-cyan-800'>&#128279; Repository Link</p>
+          </div>
       </Link>
 
       {project.deployLink ? (
         <Link href={project.deployLink}>
-          <p className='text-gray-200 font-semibold hover:underline group-hover:text-cyan-600'>&#128279; Deploy Link</p>
+          <div className='flex w-fit p-2 rounded-md hover:bg-emerald-500 hover:font-bold'>
+            <p className='text-gray-200 font-semibold  group-hover:text-cyan-800'>&#128279; Deploy Link</p>
+          </div>
         </Link>
       ) : (
         <p className='text-gray-200 text-opacity-50'>{"<Not Deployed Yet>"}</p>
