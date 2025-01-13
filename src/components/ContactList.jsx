@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function ContactList() {
   return (
-    <div className='animate-fadein'>
+    <div className='animate-fadeinbounceup'>
     <section className="py-2 rounded-md px-4">
     <div className="max-w-5xl mx-auto text-center lg:text-left">
         <div className="flex flex-col items-center">
