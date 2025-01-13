@@ -28,10 +28,32 @@ module.exports = {
               opacity: 0
           },
       },
+      "slide-in-left": {
+        "0%": {
+          transform: "translateX(100%)",
+          opacity: 0,
+        },
+        "100%": {
+          transform: "translateX(0)",
+          opacity: 1,
+        },
+      },
+      "slide-in-right": {
+        "0%": {
+          transform: "translateX(-100%)",
+          opacity: 0,
+        },
+        "100%": {
+          transform: "translateX(0)",
+          opacity: 1,
+        },
+      }
       },
       animation: {
         fadein: 'fade-in 0.8s ease-in-out forwards',
         fadeout: 'fade-out 0.8s ease-out forwards',
+        slideinleft: 'slide-in-left 0.8s ease-in-out forwards',
+        slideinright: 'slide-in-right 0.8s ease-in-out forwards',
       }
     },
   },

@@ -4,7 +4,7 @@ import Intro2 from "@/components/Intro2";
 
 export default function Home() {
   return (
-<div className="animate-fadein">
+<div>
   <Intro1/>
   <ContactList/>
   <Intro2/>
