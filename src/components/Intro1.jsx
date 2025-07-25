@@ -1,4 +1,5 @@
 import React from 'react'
+import ZackCicakModel from './Zack3dModel'
 
 export default function Intro1() {
   return (
@@ -20,11 +21,12 @@ export default function Intro1() {
             </p>
         </div>
         <div>
-            <img
+            {/* <img
             src="https://media.tenor.com/hVRhFeDFW6oAAAAi/anime-wave.gif"
             alt="wave"
             className="w-48 mx-auto my-3"
-            />
+            /> */}
+            <ZackCicakModel/>
         </div>
         </div>
     </section>
