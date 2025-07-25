@@ -41,7 +41,7 @@ function CharacterModel() {
             object={fbx}
             scale={0.05}
             position={[0, -3, 0]}
-            rotation={[0, Math.PI / 4, 0]}
+            rotation={[0, 0, 0]}
         />
     );
 }
@@ -71,8 +71,8 @@ export default function ZackCicakModel() {
                 <OrbitControls
                     enableZoom={false}
                     enablePan={false}
-                    autoRotate
-                    autoRotateSpeed={2}
+                    // autoRotate
+                    // autoRotateSpeed={2}
                 />
             </Canvas>
         </div>
