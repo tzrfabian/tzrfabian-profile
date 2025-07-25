@@ -36,11 +36,12 @@ function CharacterModel() {
     })
 
     return (
+        // Render the FBX model with specified scale, position, and rotation
         <primitive
             ref={modelRef} 
             object={fbx}
             scale={0.05}
-            position={[0, -3, 0]}
+            position={[0, -2.5, 0]}
             rotation={[0, 0, 0]}
         />
     );
@@ -57,11 +58,15 @@ function LoadingFallback() {
 
 export default function ZackCicakModel() {
     return (
-        <div className='w-48 mx-auto my-3'>
-            <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
+        // Container for the 3D model
+        <div className='w-full h-full pt-5'>
+            <Canvas camera={{ position: [0, 0, 8], fov: 40 }}>
+                {/* Lighting */}
                 <ambientLight intensity={0.5} />
+                {/* Directional light to simulate sunlight */}
                 <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-                <pointLight position={[-10, -10, -10]}/>
+                {/* Point light for additional lighting */}
+                <pointLight position={[-10, -10, -10]} />
 
                 <Suspense fallback={<LoadingFallback />}>
                     <CharacterModel />
@@ -71,6 +76,7 @@ export default function ZackCicakModel() {
                 <OrbitControls
                     enableZoom={false}
                     enablePan={false}
+                    target={[0, -1, 0]} // focus on the model
                     // autoRotate
                     // autoRotateSpeed={2}
                 />

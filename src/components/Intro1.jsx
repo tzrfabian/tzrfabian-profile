@@ -4,7 +4,7 @@ import ZackCicakModel from './Zack3dModel'
 export default function Intro1() {
   return (
     <div className='animate-slideinright'>
-    <section className="mt-28 rounded-md px-4 py-12">
+    <section className="lg:mt-28 rounded-md px-4 py-12">
         <div className="grid md:grid-cols-2 justify-between items-center max-w-5xl mx-auto">
         <div className="max-md:text-center">
             <h2 className="md:text-4xl text-slate-100 text-4xl font-semibold md:!leading-[50px] mb-2">
@@ -20,13 +20,15 @@ export default function Intro1() {
             Currently, I am actively learning to hone my skills in JavaScript, TypeScript & Python programming languages.
             </p>
         </div>
-        <div>
+        <div className="flex justify-center items-center">
+          <div className='bg-slate-400 rounded-md my-8'>
             {/* <img
             src="https://media.tenor.com/hVRhFeDFW6oAAAAi/anime-wave.gif"
             alt="wave"
             className="w-48 mx-auto my-3"
             /> */}
             <ZackCicakModel/>
+          </div>
         </div>
         </div>
     </section>

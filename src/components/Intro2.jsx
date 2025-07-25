@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Intro2() {
   return (
     <div className='animate-slideinleft'>
-    <section id="about" className="mt-40 mb-20 rounded-md px-4 py-12">
+    <section id="about" className="lg:mt-48 mt-16 mb-20 rounded-md px-4 py-12">
         <div className="grid md:grid-cols-2 justify-between items-center max-w-5xl mx-auto">
         <div className="max-md:text-center">
             <h2 className="md:text-4xl text-slate-100 text-4xl font-semibold md:!leading-[50px] mb-1">
