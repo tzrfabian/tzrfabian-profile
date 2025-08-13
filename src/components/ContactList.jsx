@@ -3,12 +3,12 @@ import React from 'react'
 
 export default function ContactList() {
   return (
-    <div className='animate-fadeinbounceup'>
+    <div className='animate-fadeinbounceup overflow-x-hidden'>
     <section className="py-2 rounded-md px-4">
     <div className="max-w-5xl mx-auto text-center lg:text-left">
         <div className="flex flex-col items-center">
         <h4 className="text-white font-semibold mb-3 text-xl">You can reach me at:</h4>
-        <ul className="flex flex-row gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
+        <ul className="flex flex-row gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 flex-wrap justify-center">
             <li>
             <Link href="https://github.com/tzrfabian" target="_blank" rel="noopener noreferrer" className="flex items-center text-center">
                 <div className="flex items-center p-2.5 font-semibold text-sm text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800 hover:translate-y-1 duration-200">

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Intro1() {
   return (
-    <div className='animate-slideinright'>
+    <div className='animate-fadeslideup overflow-x-hidden'>
     <section className="lg:mt-28 mt-5 rounded-md px-4 py-12">
         <div className="grid md:grid-cols-2 justify-between items-center max-w-5xl mx-auto">
         <div className="max-md:text-center">

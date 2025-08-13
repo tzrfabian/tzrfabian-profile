@@ -4,7 +4,7 @@ import Intro2 from "@/components/Intro2";
 
 export default function Home() {
   return (
-<div>
+<div className="overflow-x-hidden w-full">
   <Intro1/>
   <ContactList/>
   <Intro2/>

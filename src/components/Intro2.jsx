@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Intro2() {
   return (
-    <div className='animate-slideinleft'>
+    <div className='animate-fadeslidedown overflow-x-hidden'>
     <section id="about" className="lg:mt-48 mt-16 mb-10 rounded-md px-4 py-12">
         <div className="grid md:grid-cols-2 justify-between items-center max-w-5xl mx-auto">
         <div className="max-md:text-center">
