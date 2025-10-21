@@ -1,12 +1,22 @@
 'use client'
 import Link from "next/link"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
+    const [isClosing, setIsClosing] = useState(false);
 
     const toggleMenu = () => {
-        setNavbarOpen(!navbarOpen);
+        if (navbarOpen) {
+            // Start closing animation
+            setIsClosing(true);
+            setTimeout(() => {
+                setNavbarOpen(false);
+                setIsClosing(false);
+            }, 300); // Match animation duration
+        } else {
+            setNavbarOpen(true);
+        }
     };
 
   return (
@@ -27,7 +37,7 @@ export default function Navbar() {
                 <span className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                     <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
+                    className={`w-6 h-6 transition-transform duration-300 ${navbarOpen ? 'rotate-90' : 'rotate-0'}`}
                     fill="none"
                     stroke="currentColor"
                     strokeWidth={2}
@@ -35,24 +45,30 @@ export default function Navbar() {
                     <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M4 6h16M4 12h16M4 18h16"
+                        d={navbarOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
                     />
                     </svg>
                 </span>
                 </button>
-                <div className={`w-full lg:flex lg:items-center justify-end lg:w-auto ${navbarOpen ? "block" : "hidden"}`}>
-                <ul className="flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200">
+                <div className={`w-full lg:flex lg:items-center justify-end lg:w-auto overflow-hidden transition-all duration-300 ease-in-out ${
+                    navbarOpen || isClosing
+                        ? "block max-h-96 opacity-100" 
+                        : "hidden lg:block max-h-0 lg:max-h-none opacity-0 lg:opacity-100"
+                }`}>
+                <ul className={`flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 transition-all duration-300 ${
+                    navbarOpen && !isClosing ? 'animate-slidedown' : isClosing ? 'animate-slideup' : ''
+                }`}>
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200 transform transition-all hover:scale-105">
                     <Link href="/projects" className="flex items-center">
                         Projects
                     </Link>
                     </li>
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200">
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200 transform transition-all hover:scale-105">
                     <Link href="/#about" className="flex items-center">
                         About
                     </Link>
                     </li>
-                    <li>
+                    <li className="transform transition-all hover:scale-105">
                     <Link href="https://drive.google.com/file/d/1F7wRzJn0qRMLgwPqb7eXERc8YiaxR6HB/view" target="blank" rel="noopener noreferrer" className="flex items-center">
                         <div className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800 duration-200">
                             Resume
