@@ -1,5 +1,6 @@
 import image from '../../public/img_pic.jpg'
 import Image from "next/image";
+import ExpEdu from './ExpEduSection';
 
 export default function Intro2() {
   return (
@@ -22,8 +23,9 @@ export default function Intro2() {
             </div>
             
             <p className="text-gray-400 text-lg">
-            {"My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a computer science graduate from Bina Nusantara University. I previously had an internship experience as a DevOps Engineer for 1 year. And graduates from Hacktiv8's Full Stack Javascript intensive Bootcamp program. Now, currently working at PT Agrodana Futures as Internal Developer."}
+            {"My fullname is Muhammad Habib Fabian Tenzara, you can call me Fabian. I am a person who can work in a team and like to try things that new for me, because the knowledge will definitely be useful someday, I am also interested in technological developments, especially such as computer components, video games, console, and mobile phones."}
             </p>
+
         </div>
         <div className='hidden md:block'>
             <Image
@@ -32,6 +34,8 @@ export default function Intro2() {
             className="w-60 mx-auto my-3 bg-gray-500 rounded-full transition-transform transform hover:scale-105 duration-300"
             />
         </div>
+        {/* Border */}
+          <ExpEdu/>
         </div>
     </section>
     </div>
