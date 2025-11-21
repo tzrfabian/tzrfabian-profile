@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import DotGrid from "@/components/Backgrounds/DotGrid";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,11 +26,27 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-gray-900 antialiased min-h-screen flex flex-col overflow-x-hidden`}
       >
-        <Navbar/>
-        <main className="flex-1 overflow-x-hidden">
-          {children}
-        </main>
-        <Footer/>
+        {/* Fixed background layer */}
+        <div className="fixed inset-0 z-0">
+          <DotGrid
+            dotSize={5}
+            gap={25}
+            baseColor="#0b1c38"
+            activeColor="#3518ab"
+            proximity={120}
+            shockRadius={300}
+            shockStrength={5}
+            resistance={750}
+            returnDuration={1.5}
+          />
+        </div>
+
+        {/* Page content (above background) */}
+        <div className="relative z-10 flex min-h-screen flex-col">
+          <Navbar />
+          <main className="flex-1 overflow-x-hidden">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

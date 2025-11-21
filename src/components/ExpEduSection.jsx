@@ -11,7 +11,7 @@ export default function ExpEdu() {
                     <div className="font-medium text-slate-100">Internal Developer — PT Agrodana Futures</div>
                     <div className="text-sm text-gray-400">Dec 2024 - Present</div>
                   </div>
-                    <div>Jakarta, Indonesia</div>
+                    <div className="text-sm">Jakarta, Indonesia</div>
                   <ul className="list-disc ml-5 mt-2 space-y-1 text-gray-400 text-sm md:text-base">
                     <li>Develop and maintain internal tools and automation to support trading operations.</li>
                     <li>Integrate internal systems and external APIs for better data flow and reporting.</li>
@@ -25,7 +25,7 @@ export default function ExpEdu() {
                     <div className="font-medium text-slate-100">DevOps Intern — PT Phintraco Consulting</div>
                     <div className="text-sm text-gray-400">Feb 2022 - Feb 2023</div>
                   </div>
-                    <div>Jakarta, Indonesia</div>
+                    <div className="text-sm">Jakarta, Indonesia</div>
                   <ul className="list-disc ml-5 mt-2 space-y-1 text-gray-400 text-sm md:text-base">
                     <li>Maintained and improved CI/CD pipelines to streamline deployments.</li>
                     <li>Worked on infrastructure automation and configuration management.</li>
@@ -45,6 +45,7 @@ export default function ExpEdu() {
                     <div className="font-medium text-slate-100">BINUS University</div>
                     <div className="text-sm text-gray-400">Aug 2019 - Sep 2023</div>
                   </div>
+                    <div className="text-sm">Jakarta, Indonesia</div>
                   <ul className="list-disc ml-5 mt-2 space-y-1 text-gray-400 text-sm md:text-base">
                   </ul>
                 </div>
@@ -54,6 +55,7 @@ export default function ExpEdu() {
                     <div className="font-medium text-slate-100">Hacktiv8 Indonesia</div>
                     <div className="text-sm text-gray-400">Jun 2024 - Oct 2024</div>
                   </div>
+                    <div className="text-sm">Jakarta, Indonesia</div>
                   <ul className="list-disc ml-5 mt-2 space-y-1 text-gray-400 text-sm md:text-base">
                   </ul>
                 </div>
