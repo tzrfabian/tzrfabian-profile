@@ -6,7 +6,8 @@
             "description": "An e-commerce website concept where users can view and add products they like to their wishlist.",
             "repository": "https://github.com/H8-FSJS-P3S5/gc02-tzrfabian/tree/main/ecommerce-client",
             "deployLink": "https://kyokara.vercel.app/",
-            "techStack": ["Next.js", "MongoDB", "TailwindCSS", "TypeScript"]
+            "techStack": ["Next.js", "MongoDB", "TailwindCSS", "TypeScript"],
+            "thumbnail": "https://imgbox.com/d67UrDzy"
         },
         {
             "id": 2,
@@ -14,7 +15,8 @@
             "description": "Online meeting room/study room learning platform for effective distance learning.",
             "repository": "https://github.com/tzrfabian/clevr-studyroom",
             "deployLink": "https://clevr.vercel.app/",
-            "techStack": ["Javascript", "Next.JS", "Firebase Realtime DB", "ReactJS", "TailwindCSS"]
+            "techStack": ["Javascript", "Next.JS", "Firebase Realtime DB", "ReactJS", "TailwindCSS"],
+            "thumbnail": "https://imgbox.com/6iupfLFn"
         },
         {
             "id": 3,
@@ -22,7 +24,8 @@
             "description": "Entertainment website to generate ordinary images into anime style images.",
             "repository": "https://github.com/tzrfabian/IP-RMT52-tzrfabian",
             "deployLink": "",
-            "techStack": ["Node Js/Pg", "Express.js", "Sequelize", "PostgreSQL", "ReactJS", "TailwindCSS", "Fal API"]
+            "techStack": ["Node Js/Pg", "Express.js", "Sequelize", "PostgreSQL", "ReactJS", "TailwindCSS", "Fal API"],
+            "thumbnail": "https://imgbox.com/O2FDm3Z4"
         },
         {
             "id": 4,
@@ -30,7 +33,8 @@
             "description": "Android mobile application cloning references from Facebook with color accents from the Line app.",
             "repository": "https://github.com/tzrfabian/clone-line",
             "deployLink": "https://expo.dev/preview/update?message=refactor%3A%20changing%20httpLink%20uri&updateRuntimeVersion=1.0.0&createdAt=2024-09-23T01%3A56%3A22.287Z&slug=exp&projectId=b4a40ace-2f4e-4162-8cdd-c10534e97d5d&group=07c6dcd3-4c99-4628-9f3a-74a0117239ae",
-            "techStack": [" Javascript", "GraphQL", "MongoDB", "React Native"]
+            "techStack": [" Javascript", "GraphQL", "MongoDB", "React Native"],
+            "thumbnail": ""
         }
     ]
 }
