@@ -5,6 +5,21 @@ import React from 'react'
 export default function ProjectCard( {project} ) {
   return (
     <div className='group border border-white rounded-lg my-5 p-3 bg-gray-800 bg-opacity-80 hover:translate-x-3 transition-all duration-300'>
+      <div className='relative w-full rounded-md overflow-hidden mb-3'>
+        <div className='pt-[56.25%]'></div>
+        {project.thumbnail && project.thumbnail.trim() !== '' ? (
+          <img
+            src={project.thumbnail}
+            alt={`${project.name} thumbnail`}
+            className='absolute inset-0 w-full h-full object-cover'
+            loading='lazy'
+          />
+        ) : (
+          <div className='absolute inset-0 bg-gray-700 flex items-center justify-center'>
+            <span className='text-gray-300'>will be add soon</span>
+          </div>
+        )}
+      </div>
       <h2 className='text-2xl font-bold text-white'>‣ {project.name}</h2>
       <p className='text-gray-200'>
         {project.description || 'No description available'}

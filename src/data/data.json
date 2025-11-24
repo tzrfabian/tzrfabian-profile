@@ -7,7 +7,7 @@
             "repository": "https://github.com/tzrfabian/kyokara-shopping",
             "deployLink": "https://kyokara.vercel.app/",
             "techStack": ["Next.js", "MongoDB", "TailwindCSS", "TypeScript"],
-            "thumbnail": "https://imgbox.com/d67UrDzy"
+            "thumbnail": "https://images2.imgbox.com/54/09/d67UrDzy_o.png"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "repository": "https://github.com/tzrfabian/clevr-studyroom",
             "deployLink": "https://clevr.vercel.app/",
             "techStack": ["Javascript", "Next.JS", "Firebase Realtime DB", "ReactJS", "TailwindCSS"],
-            "thumbnail": "https://imgbox.com/6iupfLFn"
+            "thumbnail": "https://images2.imgbox.com/54/72/6iupfLFn_o.png"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "repository": "https://github.com/tzrfabian/IP-RMT52-tzrfabian",
             "deployLink": "",
             "techStack": ["Node Js/Pg", "Express.js", "Sequelize", "PostgreSQL", "ReactJS", "TailwindCSS", "Fal API"],
-            "thumbnail": "https://imgbox.com/O2FDm3Z4"
+            "thumbnail": "https://images2.imgbox.com/5a/00/O2FDm3Z4_o.png"
         },
         {
             "id": 4,
