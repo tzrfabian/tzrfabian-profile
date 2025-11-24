@@ -4,7 +4,7 @@
             "id": 1,
             "name": "kyokara shopping",
             "description": "An e-commerce website concept where users can view and add products they like to their wishlist.",
-            "repository": "https://github.com/H8-FSJS-P3S5/gc02-tzrfabian/tree/main/ecommerce-client",
+            "repository": "https://github.com/tzrfabian/kyokara-shopping",
             "deployLink": "https://kyokara.vercel.app/",
             "techStack": ["Next.js", "MongoDB", "TailwindCSS", "TypeScript"],
             "thumbnail": "https://imgbox.com/d67UrDzy"
