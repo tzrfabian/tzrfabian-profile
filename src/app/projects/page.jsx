@@ -5,7 +5,7 @@ import data from '@/data/data.json'
 export default function Projects() {
   const projects = data.projects;
 
-  console.log(projects);
+  // console.log(projects);
   return (
       <div className='mt-3 rounded-md px-4 py-8'>
         <div className='max-md:text-center flex justify-center items-center animate-fadeinbounceup'>
