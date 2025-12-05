@@ -16,8 +16,39 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Home | tzrfabian",
+  metadataBase: new URL('https://fabian.tenzara.my.id'),
+  title: {
+    default: "Home | Fabian Tenzara",
+    template: "%s | tzrfabian"
+  },
   description: "Welcome to my personal website. Here you can find information about my background, experience, and projects.",
+  keywords: ["Fabian Tenzara", "Software Developer", "Portfolio", "Projects"],
+  authors: [{ name: "Fabian Tenzara" }],
+  creator: "Fabian Tenzara",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://fabian.tenzara.my.id',
+    siteName: "tzrfabian",
+    title: "Home | Fabian Tenzara",
+    description: "Welcome to my personal website. Here you can find information about my background, experience, and projects.",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Home | Fabian Tenzara",
+    description: "Welcome to my personal website. Here you can find information about my background, experience, and projects.",
+  },
 };
 
 export default function RootLayout({ children }) {
