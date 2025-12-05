@@ -55,20 +55,20 @@ export default function Navbar() {
                         ? "block max-h-96 opacity-100" 
                         : "hidden lg:block max-h-0 lg:max-h-none opacity-0 lg:opacity-100"
                 }`}>
-                <ul className={`flex flex-col gap-2 mt-2 mb-4 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 transition-all duration-300 ${
+                <ul className={`flex flex-col gap-2 mt-2 mb-4 p-1 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6 transition-all duration-300 ${
                     navbarOpen && !isClosing ? 'animate-slidedown' : isClosing ? 'animate-slideup' : ''
                 }`}>
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200 transform transition-all hover:scale-105">
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200 transform transition-all hover:scale-105 md:origin-center origin-left hover:translate-x-2 md:hover:translate-x-0">
                     <Link href="/projects" className="flex items-center">
                         Projects
                     </Link>
                     </li>
-                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200 transform transition-all hover:scale-105">
+                    <li className="flex items-center p-1 font-semibold text-xl gap-x-2 text-gray-200 hover:text-cyan-600 duration-200 transform transition-all hover:scale-105 md:origin-center origin-left hover:translate-x-2 md:hover:translate-x-0">
                     <Link href="/#about" className="flex items-center">
                         About
                     </Link>
                     </li>
-                    <li className="transform transition-all hover:scale-105">
+                    <li className="transform transition-all hover:scale-105 md:origin-center origin-left">
                     <Link href="https://drive.google.com/file/d/1F7wRzJn0qRMLgwPqb7eXERc8YiaxR6HB/view" target="_blank" rel="noopener noreferrer" className="flex items-center">
                         <div className="flex items-center p-2.5 font-semibold text-xl gap-x-2 text-gray-200 border border-white rounded-md hover:text-cyan-600 hover:bg-black hover:border-cyan-800 duration-200">
                             Resume
