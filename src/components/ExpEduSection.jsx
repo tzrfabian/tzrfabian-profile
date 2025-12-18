@@ -13,10 +13,10 @@ export default function ExpEdu() {
                   </div>
                     <div className="text-sm">Jakarta, Indonesia</div>
                   <ul className="list-disc ml-5 mt-2 space-y-1 text-gray-400 text-sm md:text-base">
-                    <li>Develop and maintain internal tools and automation to support trading operations.</li>
-                    <li>Integrate internal systems and external APIs for better data flow and reporting.</li>
-                    <li>Implement dashboards and monitoring to track system health and KPIs.</li>
-                    <li>Improve developer workflows by building scripts and CI/CD automation.</li>
+                  <li>Develop and enhance internal tools and automation to support workflows and data extraction.</li>
+                  <li>Design, develop, and maintain APIs that deliver market data, including stock and forex prices, CFD indices, and technical/fundamental analysis.</li>
+                  <li>Build and manage LLM-based chatbots using low-code platforms.</li>
+                  <li>Manage and update the company website using WordPress.</li>
                   </ul>
                 </div>
 
@@ -27,9 +27,10 @@ export default function ExpEdu() {
                   </div>
                     <div className="text-sm">Jakarta, Indonesia</div>
                   <ul className="list-disc ml-5 mt-2 space-y-1 text-gray-400 text-sm md:text-base">
-                    <li>Maintained and improved CI/CD pipelines to streamline deployments.</li>
-                    <li>Worked on infrastructure automation and configuration management.</li>
-                    <li>Set up monitoring and alerting to improve reliability and visibility.</li>
+                    <li>Worked for the MyTelkomsel mobile application as part of the Operation & Support Team.</li>
+                    <li>Assisted with deploying APIs & services, building the app, and supporting feature testing.</li>
+                    <li>Supported application system testing, including FUT, UAT, and Non-Functional Testing.</li>
+                    <li>Monitored the application's performance.</li>
                   </ul>
                 </div>
               </div>
