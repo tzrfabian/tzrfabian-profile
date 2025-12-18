@@ -1,6 +1,6 @@
-import Intro1 from "@/components/Intro1";
-import ContactList from "@/components/ContactList";
-import Intro2 from "@/components/Intro2";
+import Intro1 from "../components/Intro1";
+import ContactList from "../components/ContactList";
+import Intro2 from "../components/Intro2";
 
 export const metadata = {
   title: "Home | Fabian Tenzara",

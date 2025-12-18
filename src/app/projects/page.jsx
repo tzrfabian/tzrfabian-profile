@@ -1,6 +1,6 @@
 'use client'
-import ProjectCard from '@/components/ProjectCard'
-import data from '@/data/data.json'
+import ProjectCard from '../../components/ProjectCard'
+import data from '../../data/data.json'
 
 export default function Projects() {
   const projects = data.projects;

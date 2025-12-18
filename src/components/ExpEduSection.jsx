@@ -14,7 +14,7 @@ export default function ExpEdu() {
                     <div className="text-sm">Jakarta, Indonesia</div>
                   <ul className="list-disc ml-5 mt-2 space-y-1 text-gray-400 text-sm md:text-base">
                   <li>Develop and enhance internal tools and automation to support workflows and data extraction.</li>
-                  <li>Design, develop, and maintain APIs that deliver market data, including stock and forex prices, CFD indices, and technical/fundamental analysis.</li>
+                  <li>Design, develop, and maintain APIs that deliver market data, including stock and forex prices, CFD index, and technical/fundamental analysis.</li>
                   <li>Build and manage LLM-based chatbots using low-code platforms.</li>
                   <li>Manage and update the company website using WordPress.</li>
                   </ul>
@@ -30,7 +30,7 @@ export default function ExpEdu() {
                     <li>Worked for the MyTelkomsel mobile application as part of the Operation & Support Team.</li>
                     <li>Assisted with deploying APIs & services, building the app, and supporting feature testing.</li>
                     <li>Supported application system testing, including FUT, UAT, and Non-Functional Testing.</li>
-                    <li>Monitored the application's performance.</li>
+                    <li>{"Monitored the application's performance."}</li>
                   </ul>
                 </div>
               </div>

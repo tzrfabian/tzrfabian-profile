@@ -1,4 +1,4 @@
-export default function sitemap() {
+export default async function sitemap() {
   const baseUrl = 'https://fabian.tenzara.my.id';
 
   return [
@@ -16,3 +16,4 @@ export default function sitemap() {
     },
   ];
 }
+
