@@ -17,6 +17,7 @@ export default function ExpEdu() {
                   <li>Design, develop, and maintain APIs that deliver market data, including stock and forex prices, CFD index, and technical/fundamental analysis.</li>
                   <li>Build and manage LLM-based chatbots using low-code platforms.</li>
                   <li>Manage and update the company website using WordPress.</li>
+                  <li>Manage and maintain applications, deployed APIs, and database services using Easypanel (Docker-based)</li>
                   </ul>
                 </div>
 
